@@ -1,0 +1,212 @@
+<!-- Julián Sellanes 301494667-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Julián Sellanes Website</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Verdana
+        }
+
+
+
+        .headerContainer {
+            position: relative;
+            padding: 12%;
+            border: 1px solid black;
+
+            text-align: center;
+            text-shadow: 1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
+            color: white;
+
+            background-image: url("./Imgs/Berserk.png");
+            background-size: 100% 100%;
+        }
+
+        .headerContainer h3 {
+            position: absolute;
+            margin: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+
+
+
+        .navContainer {
+            background-color: rgb(38, 173, 67);
+            padding: 20px;
+            text-align: left;
+        }
+
+        .navContainer a{
+            padding: 5px;
+            margin-left: 40px;
+            text-decoration: none;
+            color: black;
+        }
+
+
+
+
+
+
+
+        .aboutContainer {
+            background-color: rgb(70, 255, 110);
+        }
+
+        .aboutTitle {
+            padding: 40px 0px 20px;
+            text-align: center;
+        }
+
+        .aboutTitle h1 {
+            margin: 0;
+        }
+
+        .aboutBox {
+            padding: 30px;
+            border: 1px solid black;
+            background-color: rgb(38, 173, 67);
+            overflow: hidden;
+
+            word-break: break-word;
+            margin: 0 20%;
+        }
+
+        .aboutBox img{
+            float: left;
+            width: 200px;
+            height: auto;
+            margin-right: 10px;
+            border: 1px solid black;
+        }
+
+        .aboutBox p {
+            font-weight: 500;
+            font-size: 20px;
+        }
+
+
+
+
+        .hobbiesContainer {
+            background-color: rgb(70, 255, 110);
+            padding-bottom: 20px;
+        }
+
+        .hobbiesContainer h1{
+            text-align: center;
+            margin: 0;
+            padding: 40px 0px 20px;
+        }
+
+
+        table {
+            border: 1px solid black;
+            background-color: rgb(38, 173, 67);
+            padding: 10px;
+
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        td {
+            width: 200px;
+            border: 1px solid black;
+
+            text-align: center;
+            word-break: break-word;
+        }
+
+        td img {
+            width: 200px;
+            height: 200px;
+        }
+
+        td p {
+            font-weight: 500;
+            font-size: 20px;
+        }
+
+        
+
+        footer {
+            background-color: rgb(38, 173, 67);
+            padding: 40px 20px;
+        }
+    </style>
+</head>
+<body>
+    <header class="headerContainer">
+        <h3>COMP213 - Web Interface Design - Fall 2024 <br>Julián Sellanes - Student Number: 301494667</h3>
+    </header>
+    
+    <nav class="navContainer">
+        <b>
+            <a href="index.html">Home</a>
+            <a href="contact.html">Contact</a>
+        </b>
+    </nav>
+
+    <main>
+        <div class="aboutContainer">
+            
+            <div class="aboutTitle">
+                <h1>About Me</h1>
+            </div>
+
+            <div class="aboutBox">
+                <img src="./Imgs/Me.jpg">
+                <h1>Julián Sellanes</h1>
+                <p>Hello! Welcome to my page. My name is Julián. I am a Unionville High School graduate, and I am currently in the Software Engineering program at Centennial College.</p>
+            </div>
+            
+        </div>
+        
+        <div class="hobbiesContainer">
+            <h1>Hobbies</h1>
+            <table>
+                <tr>
+                    <td>
+                        <img src="./Imgs/Gym.jpeg">
+                        <p>Gym</p>
+                    </td>
+                    <td>
+                        <img src="./Imgs/Coding.png">
+                        <p>Coding</p>
+                    </td>
+                    <td>
+                        <img src="./Imgs/Draw.jpeg">
+                        <p>Drawing</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="./Imgs/Chess.png">
+                        <p>Play Chess</p>
+                    </td>
+                    <td>
+                        <img src="./Imgs/Pokemon.png">
+                        <p>Pokemon GO</p>
+                    </td>
+                    <td>
+                        <img src="./Imgs/Manga.png">
+                        <p>Read Manga</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </main>
+
+    <footer>
+        <small><i>Copyright &copy; Julián Sellanes (301494667) | Web Interface Design - Fall 2024 </i></small>
+    </footer>
+</body>
+</html>

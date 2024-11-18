@@ -1,0 +1,254 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: rgb(190, 150, 255);
+}
+
+header {
+    position: relative;
+    padding: 5% 10%;
+
+    display: flex;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
+    color: white;
+
+    background-image: url("./Imgs/banner.png");
+    background-size: 100% 100%;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+header img {
+    width: 100px;
+    cursor: pointer;
+}
+
+header h3 {
+    flex: 1;
+}
+
+
+.divOne {
+    background: linear-gradient(rgb(255, 0, 255), rgb(38, 49, 252));
+    display: inline-flex;
+    color: white;
+}
+
+.left {
+    background-color: rgb(44, 219, 254);
+    float: left;
+    width: 40%;
+    text-align: center;
+    margin: 50px 0px 50px 80px;
+    padding: 10px;
+}
+
+.left img {
+    border: 5px solid black;
+    width: 250px;
+    margin: 20px 0px 0px;
+}
+
+.left p {
+    margin: 10px 0px 0px;
+}
+
+.right {
+    background-color: rgb(176, 53, 213);
+    float: right;
+    width: 60%;
+    text-align: center;
+    margin: 50px 80px 50px 0px;
+    padding: 10px 100px;
+}
+
+.desc {
+    margin: 40px 0px;
+}
+
+.right ul {
+    text-align: left;
+}
+
+
+
+.divTwo {
+    background: linear-gradient(rgb(38, 49, 252), rgb(255, 0, 255));
+
+    padding: 20px 0px;
+
+    color: white;
+    text-align: center;
+}
+
+table {
+    background-color: rgb(10, 168, 168);
+    margin: 0px auto;
+}
+
+table, th, td {
+    border: 1px solid white;
+    padding: 20px;
+}
+
+
+
+.divThree {
+    background-color: rgb(255, 0, 255);
+    display: flex;
+    text-align: center;
+    color: white;
+    padding: 30px 0px;
+}
+
+.divThree div {
+    flex: 1;
+}
+
+.distributor {
+    padding: 10px 20px;
+}
+
+
+
+.divFour {
+    background-color: rgb(38, 49, 252);
+    padding: 20px 100px;
+}
+
+.divFour img{
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+footer {
+    background-color: rgb(190, 150, 255);
+    padding: 40px 20px;
+    color: white;
+}
+
+
+
+.productInfo {
+    background: linear-gradient(rgb(38, 49, 252),rgb(255, 0, 255));
+    padding: 50px 0px;
+    text-align: center;
+}
+
+.productInfo img{
+    border: 5px solid black;
+    width: 50%;
+    height: auto;
+    margin: 0px 0px 50px;
+}
+
+@media screen and (max-width: 960px) {
+    .left {
+        background-color: rgb(44, 219, 254);
+        float: left;
+        width: 45%;
+        text-align: center;
+        margin: 50px 0px 50px 30px;
+        padding: 10px;
+    }
+    
+    .left img {
+        border: 5px solid black;
+        width: 200px;
+        margin: 20px 0px 0px;
+    }
+
+    .right {
+        background-color: rgb(176, 53, 213);
+        float: right;
+        width: 55%;
+        text-align: center;
+        margin: 50px 30px 50px 0px;
+        padding: 10px 50px;
+    }
+    
+    .desc {
+        margin: 30px 0px;
+    }
+
+
+
+    .divTwo {
+        background: linear-gradient(rgb(38, 49, 252), rgb(255, 0, 255));
+    
+        padding: 20px 30px;
+    
+        color: white;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .left {
+        background-color: rgb(44, 219, 254);
+        float: left;
+        width: 45%;
+        text-align: center;
+        font-size: 14px;
+        margin: 30px 0px 50px 10px;
+        padding: 10px;
+    }
+    
+    .left img {
+        border: 2px solid black;
+        width: 150px;
+        margin: 30px 0px 0px;
+    }
+
+    .right {
+        background-color: rgb(176, 53, 213);
+        float: right;
+        width: 55%;
+        text-align: center;
+        font-size: 14px;
+        margin: 30px 10px 50px 0px;
+        padding: 10px 10px;
+    }
+    
+    .desc {
+        margin: 30px 0px;
+    }
+
+
+
+    .divTwo {
+        background: linear-gradient(rgb(38, 49, 252), rgb(255, 0, 255));
+        
+        padding: 10px 0px;
+    
+        color: white;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    table, th, td {
+        border: 1px solid white;
+        padding: 10px;
+    }
+
+    .divThree {
+        background-color: rgb(255, 0, 255);
+        display: flex;
+        text-align: center;
+        font-size: 14px;
+        color: white;
+        padding: 10px 0px;
+    }
+    
+    .distributor {
+        padding: 10px 5px;
+    }
+}

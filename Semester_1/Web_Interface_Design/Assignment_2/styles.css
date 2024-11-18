@@ -1,0 +1,81 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana
+}
+
+header {
+    position: relative;
+    padding: 10% 10%;
+
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
+    color: white;
+
+    background-image: url("./Imgs/Banner.png");
+    background-size: 100% 100%;
+}
+
+header h3 {
+    margin: 0;
+}
+
+body {
+    background: radial-gradient(circle, violet, pink, violet);
+}
+
+.introDiv {
+    padding: 80px 20%;
+    background-color: violet;
+    display: inline-block;
+    text-align: center;
+}
+
+.list {
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+}
+
+.list li {
+    display: inline-block;
+    overflow: hidden;
+    word-break: break-word;
+    margin: 10px 10%;
+}
+
+.itemDiv p {
+    padding: 0px 100px;
+}
+
+.itemDiv img {
+    width: 300px;
+    height: 300px;
+    margin: 10px 20px;
+    background-color: white;
+}
+
+footer {
+    background-color: violet;
+    padding: 40px 20px;
+}
+
+@media screen and (max-width: 480px) {
+    .introDiv {
+        padding: 80px 15px;
+        background-color: violet;
+        display: inline-block;
+        text-align: center;
+    }
+
+    .itemDiv p {
+        padding: 0px 20px;
+    }
+
+    .itemDiv img {
+        width: 80%;
+        height: 300px;
+        background-color: white;
+    }
+}
