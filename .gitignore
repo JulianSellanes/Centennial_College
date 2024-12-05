@@ -2,11 +2,9 @@
 .DS_Store
 .AppleDouble
 .LSOverride
-
-# macOS Finder files
+.DS_Store?
 ._*
-
-# macOS Trash folder which might appear in some directories
+.Spotlight-V100
 .Trashes
 
 # Windows specific
@@ -27,6 +25,11 @@ $RECYCLE.BIN/
 *.userosscache
 *.sln.docstates
 
+# Python specific files
+__pycache__/
+*.py[cod]
+*$py.class
+
 # Node.js (if using Node.js or npm)
 node_modules/
 npm-debug.log*
@@ -40,6 +43,24 @@ dist/
 Debug/
 Release/
 build/
+.Python
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+*.whl
+
+# PyInstaller
+*.manifest
+*.spec
 
 # Log files
 *.log
@@ -52,15 +73,23 @@ build/
 
 # Environmental variables
 .env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
 
 # DotNet specific
 project.lock.json
 project.fragment.lock.json
 artifacts/
 
-# Rider IDE
+# IDEs and editors
 .idea/
 *.sln.iml
+*.sublime-project
+*.sublime-workspace
 
 # Dependencies
 *.nuget/
@@ -76,3 +105,15 @@ _ReSharper*/
 TestResults/
 *.trx
 *.coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
