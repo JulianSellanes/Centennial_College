@@ -6,6 +6,7 @@
         <title></title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
         <div id="plans-main">
@@ -26,20 +27,15 @@
                         <li><a href="">Websites & Email</a></li>
                         <li><a href="">Marketing & SEO</a></li>
                         <li><a href="">Security & SSL</a></li>
+                        <li><a href="">Hot Deals</a></li>
                     </ul>
                 </nav>
             </div>
             <div id="plans-hero">
-                <div>
-                    <h3>Canadian Web Hosting</h3>
-                    <h4>Your Website's Perfect Home</h4>
-                    <p>Get your new project online today on one of Canada's fastets, most reliable, <br> and most secure web hosting platforms.</p>
-                    <input type="submit" id="plans-bttn" value="Compare Web Hosting Plans">
-                </div>
             </div>
             <div id="plans-plans">
                     <div class="plans-col-div">
-                        <img src="./Imgs/user-icon.png" class="plans-col-div-img">
+                        <i class="fa fa-bicycle" id="plans-col-div-icon"></i>
                         <h4 class="plans-col-div-h4">Starter</h4>
                         <p class="plans-col-div-p1">Affordable plan, great for personal projects.</p>
                         <p class="plans-col-div-p2">As low as</p>
@@ -51,34 +47,56 @@
                         <input type="submit" class="plans-addto-bttn" value="Add to Cart">
                         <ul class="plans-col-div-ul">
                             <li>
-                                <img src="./Imgs/user-icon.png">
-                                <p>Starter</p>
+                                <i class="fa fa-tachometer" id="plans-col-div-ul-icon"></i>
+                                <p>STARTER</p>
                                 <p>Performance</p>
-                                <img src="./Imgs/user-icon.png">
-                                <img src="./Imgs/user-icon.png">
+                                <i class="fa fa-bolt" id="plans-col-div-ul-icon-red"></i>
+                                <i class="fa fa-bolt" id="plans-col-div-ul-icon"></i>
+                                <i class="fa fa-bolt" id="plans-col-div-ul-icon"></i>
+                                <i class="fa fa-bolt" id="plans-col-div-ul-icon"></i>
+                                <i class="fa fa-info-circle" id="plans-col-div-ul-icon-blue"></i>
                             </li>
                             <li>
-                                <img src="./Imgs/user-icon.png">
-                                <p>Starter</p>
-                                <p>Performance</p>
-                                <img src="./Imgs/user-icon.png">
-                                <img src="./Imgs/user-icon.png">
+                                <i class="fa fa-laptop" id="plans-col-div-ul-icon"></i>
+                                <p>Single</p>
+                                <p>Website</p>
                             </li>
                             <li>
-                                <img src="./Imgs/user-icon.png">
-                                <p>Starter</p>
-                                <p>Performance</p>
-                                <img src="./Imgs/user-icon.png">
-                                <img src="./Imgs/user-icon.png">
+                                <i class="fa fa-server" id="plans-col-div-ul-icon"></i>
+                                <p>Unlimited</p>
+                                <p>Space & Traffic</p>
+                            </li>
+                            <li>
+                                <i class="fa fa-leaf" id="plans-col-div-ul-icon-green"></i>
+                                <p>Powered</p>
+                                <p>by renewable energy</p>
+                            </li>
+                            <li>
+                                <i class="fa fa-envelope" id="plans-col-div-ul-icon"></i>
+                                <p>All-Inclusive</p>
+                                <p>STARTER Email</p>
+                                <i class="fa fa-info-circle" id="plans-col-div-ul-icon-blue"></i>
+                            </li>
+                            <li>
+                                <i class="fa fa-cubes" id="plans-col-div-ul-icon"></i>
+                                <p>Standard</p>
+                                <p>Hosting Features</p>
+                                <i class="fa fa-info-circle" id="plans-col-div-ul-icon-blue"></i>
+                            </li>
+                            <li>
+                                <i class="fa fa-exchange" id="plans-col-div-ul-icon"></i>
+                                <p>Free</p>
+                                <p>Site Migration</p>
+                                <i class="fa fa-info-circle" id="plans-col-div-ul-icon-blue"></i>
                             </li>
                         </ul>
                     </div>
                     <div class="plans-col-div">
-                        <img src="./Imgs/user-icon.png" class="plans-col-div-img">
+                        <i class="fa fa-rocket" id="plans-col-div-icon"></i>
                         <h4 class="plans-col-div-h4">Starter</h4>
                     </div>
                     <div class="plans-col-div">
-                        <img src="./Imgs/user-icon.png" class="plans-col-div-img">
+                        <i class="fa fa-building" id="plans-col-div-icon"></i>
                         <h4 class="plans-col-div-h4">Starter</h4>
                     </div>
             </div>
@@ -86,9 +104,9 @@
                 <div class="footer-top">
                     <h2>Ready to Get Started? We're available 24/7!</h2>
                     <div class="footer-top-div">
-                        <input type="submit" class="footer-top-bttn" value="Addwadada to Cart">
-                        <input type="submit" class="footer-top-bttn" value="Add to Cart">
-                        <input type="submit" class="footer-top-bttn" value="Add awdawdwdato Cart">
+                        <input type="submit" class="footer-top-bttn" value="Call us at 1-514-504-2113">
+                        <input type="submit" class="footer-top-bttn" value="Chat with us">
+                        <input type="submit" class="footer-top-bttn" value="Search your Perfect Domain">
                     </div>
                 </div>
                 <div class="footer-bot">
@@ -96,66 +114,73 @@
                         <div class="footer-bot-div2">
                             <h4>Hosting & Servers</h4>
                             <a href="">Canadian Web Hosting</a>
-                            <a href="">Canadian Web Hosting</a>
-                            <a href="">Canadian Web Hosting</a>
-                            <a href="">Canadian Web Hosting</a>
+                            <a href="">Canadian Cloud Servers</a>
+                            <a href="">Reseller Web Hosting</a>
+                            <a href="">Dedicated Servers</a>
+                            <a href="">Managed WordPress</a>
+                            <a href="">Anycast DNS</a>
+                            <a href="">Free Website Migration</a>
                         </div>
                         <div class="footer-bot-div2">
-                            <h4>Hosting & Servers</h4>
-                            <a href="">Canadian Web Hosting</a>
-                            <a href="">Canadian Web Hosting</a>
-                            <a href="">Canadian Web Hosting</a>
-                            <a href="">Canadian Web Hosting</a>
+                            <h4>Domains & Websites</h4>
+                            <a href="">Domain Name Search</a>
+                            <a href="">Domain Name Transfer</a>
+                            <a href="">Weebly Site Builder</a>
                         </div>
                         <div class="footer-bot-div2">
-                            <h4>Hosting & Servers</h4>
-                            <a href="">Canadian Web Hosting</a>
-                            <a href="">Canadian Web Hosting</a>
-                            <a href="">Canadian Web Hosting</a>
-                            <a href="">Canadian Web Hosting</a>
+                            <h4>Security & SSL</h4>
+                            <a href="">SSL Certificates</a>
+                            <a href="">SiteSafe Protection</a>
+                            <a href="">Enterprise Anti-Spam</a>
+                            <a href="">Domain Privacy</a>
+                            <a href="">Protection</a>
                         </div>
                         <div class="footer-bot-div2">
-                            <h4>Hosting & Servers</h4>
-                            <a href="">Canadian Web Hosting</a>
-                            <a href="">Canadian Web Hosting</a>
-                            <a href="">Canadian Web Hosting</a>
-                            <a href="">Canadian Web Hosting</a>
+                            <h4>Online Marketing</h4>
+                            <a href="">Search Engine</a>
+                            <a href="">Optimization</a>
+                            <a href="">Email Marketing</a>
+                            <a href="">Affiliate Program</a>
                         </div>
                         <div class="footer-bot-div2">
-                            <h4>Hosting & Servers</h4>
-                            <a href="">Canadian Web Hosting</a>
-                            <a href="">Canadian Web Hosting</a>
-                            <a href="">Canadian Web Hosting</a>
-                            <a href="">Canadian Web Hosting</a>
+                            <h4>Company</h4>
+                            <a href="">Blog & News</a>
+                            <a href="">About WHC</a>
+                            <a href="">WHC Reviews</a>
+                            <a href="">Green Web Hosting</a>
+                            <a href="">Contact us</a>
+                            <a href="">Careers</a>
                         </div>
                         <div class="footer-bot-div2">
-                            <h4>Hosting & Servers</h4>
-                            <a href="">Canadian Web Hosting</a>
-                            <a href="">Canadian Web Hosting</a>
-                            <a href="">Canadian Web Hosting</a>
-                            <a href="">Canadian Web Hosting</a>
+                            <h4>Support</h4>
+                            <a href="">Help Center</a>
+                            <a href="">Open Support Ticket</a>
+                            <a href="">Check System Status</a>
                         </div>
                     </div>
                     <div class="footer-bot-div3">
                         <div class="footer-bot-div4">
                             <p>Follow us</p>
                             <a href="" target="_blank">
-                                <img src="./Imgs/logo-pic.png">
+                                <img src="./Imgs/facebook-icon.png">
                             </a>
                             <a href="" target="_blank">
-                                <img src="./Imgs/logo-pic.png">
+                                <img src="./Imgs/twitter-icon.png">
                             </a>
                             <a href="" target="_blank">
-                                <img src="./Imgs/logo-pic.png">
+                                <img src="./Imgs/linkedin-icon.png">
                             </a>
                             <a href="" target="_blank">
-                                <img src="./Imgs/logo-pic.png">
+                                <img src="./Imgs/ig-icon.png">
+                            </a>
+                            <a href="" target="_blank">
+                                <img src="./Imgs/yt-icon.png">
                             </a>
                         </div>
                         <div class="footer-bot-div5">
-                            <img src="./Imgs/phone-icon.png">
+                            <i class="fa fa-phone"></i>
                             <p>1 514 504-2113</p>
-                            <img src="./Imgs/address-icon.png">
+                            <i class="fa fa-map-marker"></i>
                             <p>7250 Clark Street #301, Montreal, Quebec H2R 2Y3 Canada</p>
                         </div>
                     </div>
