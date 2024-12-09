@@ -87,7 +87,7 @@
 }
 
 
-#footer {
+/* #footer {
     background-color: green;
     color: white;
     padding: 40px;
@@ -134,7 +134,7 @@ div {
     color: blue;
     text-decoration: none;
     background-color: transparent;
-} */
+} *
 
 #greenHostingBadge {
     width: 100%;
@@ -199,10 +199,338 @@ section {
 
 .footer-infos {
     display: inline-block;
+} */
+
+
+
+#plans-main {
+    height: 100vh;
+    /* height: 1000px; */
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    gap: 50px;
+}
+
+.header {
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#headerLeft {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    font-size: 13px;
+}
+
+#headerLeft img {
+    height: 80px;
+    cursor: pointer;
+}
+
+#headerLeft-texts
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.header nav {
+    margin-right: 30px;
+    font-size: 18px;
+}
+
+.header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.header nav ul li {
+    margin: 0px 8px;
+}
+
+.header nav ul li a {
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    /* white-space: nowrap; */
+}
+
+.header nav ul li a:hover {
+    color: blue;
+    background-color: white;
 }
 
 
 
+
+#plans-hero {
+    width: 100%;
+    /* height: 100%; */
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    /* background-color: yellow; */
+    background-image: url("./Imgs/Banner.png");
+    background-size: 100% 100%;
+
+    color: white;
+}
+
+#plans-hero h3 {
+    margin-top: 80px;
+    margin-left: 20px;
+    padding: 3px;
+}
+
+#plans-hero h4 {
+    margin-left: 20px;
+    padding: 3px;
+}
+
+#plans-hero p {
+    margin-left: 20px;
+    margin-top: 15px;
+    padding: 3px;
+}
+
+#plans-bttn {
+    /* margin-top: 10px; */
+    /* margin: 0 10px 4px 10px; */
+    margin: 15px 0 80px 20px;
+    padding: 8px;
+    background-color: rgb(0, 81, 255);
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+
+
+
+#plans-plans {
+    width: 100%;
+    /* background-color: orange; */
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.plans-col-div {
+    flex: 1;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 0 10px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plans-col-div-img {
+    width: 30px;
+    margin-top: 10px;
+}
+
+.plans-col-div-h4 {
+    margin-top: 10px;
+}
+
+.plans-col-div-p1 {
+    text-align: center;
+    margin-top: 6px;
+}
+
+.plans-col-div-p2 {
+    margin-top: 6px;
+}
+
+.plans-col-div-p3 {
+    color: green;
+    font-size: 30px;
+}
+
+.plans-col-div-span1 {
+    color: black;
+    font-size: 15px;
+}
+
+.plans-col-div-texts {
+    display: flex;
+}
+
+.plans-col-div-p4 {
+    text-decoration: line-through;
+    font-size: 15px;
+}
+
+.plans-col-div-p5 {
+    background-color: yellow;
+}
+
+.plans-addto-bttn {
+    margin-top: 10px;
+    padding: 10px 30px;
+    background-color: rgb(0, 81, 255);
+    color: white;
+    /* font-size: 22px; */
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.plans-col-div-ul {
+    margin-top: 10px;
+    list-style: none;
+}
+
+.plans-col-div-ul li {
+    margin-top: 10px;
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+
+.plans-col-div-ul li img{
+    /* width: 25px; */
+    height: 25px;
+}
+
+
+
+
+
+
+
+
+.footer {
+    width: 100%;
+    background-color: blue;
+    /* padding: 100px; */
+}
+
+.footer-top {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 10px;
+    color: white;
+}
+
+.footer-top-div {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.footer-top-bttn {
+    padding: 10px;
+}
+
+.footer-bot {
+    margin-top: 50px;
+    padding: 10px;
+    background-color: rgb(69, 69, 69);
+    align-items: center;
+}
+
+.footer-bot-div1 {
+    /* width: 100%; */
+    /* background-color: orange; */
+    display: flex;
+    /* justify-content: space-evenly; */
+    /* align-items: center; */
+    justify-content: center;
+    /* text-align: center; */
+    gap: 30px;
+    /* margin: 0 20px; */
+    padding: 30px 0;
+    /* background-color: red; */
+}
+
+.footer-bot-div2 {
+    /* flex: 1; */
+    display: flex;
+    flex-direction: column;
+    /* background-color: green; */
+    /* padding: 10px; */
+}
+
+.footer-bot-div2 h4 {
+    padding: 10px 0;
+    color: white;
+}
+
+.footer-bot-div2 a {
+    color: rgb(168, 168, 168);
+    text-decoration: none;
+}
+
+.footer-bot-div2 a:hover {
+    color: blue;
+}
+
+.footer-bot-div3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 130px;
+    box-sizing: border-box;
+    /* background-color: green; */
+    border-top: 1px solid gray;
+}
+
+.footer-bot-div4 {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: red; */
+    padding: 3px;
+    gap: 10px;
+}
+
+.footer-bot-div4 p {
+    color: white;
+    font-size: 16px;
+}
+
+.footer-bot-div4 img {
+    width: 40px;
+}
+
+.footer-bot-div4 a {
+    text-decoration: none;
+}
+
+.footer-bot-div5 {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-bot-div5 img {
+    width: 25px;
+}
+
+.footer-bot-div5 p {
+    color: gray;
+    font-size: 13px;
+}
 
 
 
