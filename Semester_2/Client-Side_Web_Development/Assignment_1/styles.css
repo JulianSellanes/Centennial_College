@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(45deg, rgb(255, 0, 142), rgb(0, 155, 255));
+}
+
+h1 {
+    padding: 10px;
+    text-align: center;
+}
+
+#table-form {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+input {
+    padding: 3px;
+    margin-left: 12px;
+    margin-right: 20px;
+}
+
+button {
+    padding: 6px;
+}
+
+#secret {
+    text-align: center;
+    color: white;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+#table-container {
+    padding: 10px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    padding: 40px 20px;
+    color: white;
+    text-align: center;
+}
