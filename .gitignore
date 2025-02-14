@@ -1,4 +1,4 @@
-# macOS system files
+# macOS
 .DS_Store
 .AppleDouble
 .LSOverride
@@ -7,16 +7,18 @@
 .Spotlight-V100
 .Trashes
 
-# Windows specific
+# Windows
 Thumbs.db
 ehthumbs.db
 Desktop.ini
 $RECYCLE.BIN/
 
-# Visual Studio Code specific files
+# Visual Studio Code
 .vscode/
+.history/
+.vscode-test/
 
-# Visual Studio specific files
+# Visual Studio
 .vs/
 *.vcxproj.*
 *.user
@@ -25,16 +27,29 @@ $RECYCLE.BIN/
 *.userosscache
 *.sln.docstates
 
-# Python specific files
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
 
-# Node.js (if using Node.js or npm)
+# PyInstaller
+*.manifest
+*.spec
+
+# Node.js
 node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
+
+# React
+.vscode-react/
+.vscode-react-snippets/
+.vscode-react-devtools/
+
+# Vite
+.vite/
 
 # Build results
 bin/
@@ -43,6 +58,7 @@ dist/
 Debug/
 Release/
 build/
+out/
 .Python
 develop-eggs/
 downloads/
@@ -58,17 +74,22 @@ var/
 *.egg
 *.whl
 
-# PyInstaller
-*.manifest
-*.spec
-
 # Log files
 *.log
+logs/
+*.log.*
 
 # Temporary files
 *.tmp
 *.temp
 *.cache
+*.swp
+*.swo
+*.bak
+*.ori
+*.original
+*.rej
+*.old
 *.pdb
 
 # Environmental variables
@@ -79,8 +100,10 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+.env.local
+.env.*.local
 
-# DotNet specific
+# DotNet
 project.lock.json
 project.fragment.lock.json
 artifacts/
@@ -106,10 +129,12 @@ TestResults/
 *.trx
 *.coverage
 htmlcov/
+*.lcov
 .tox/
 .nox/
 .coverage
 .coverage.*
+coverage/
 .cache
 nosetests.xml
 coverage.xml
