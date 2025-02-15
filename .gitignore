@@ -17,6 +17,7 @@ $RECYCLE.BIN/
 .vscode/
 .history/
 .vscode-test/
+.gradle/
 
 # Visual Studio
 .vs/
@@ -31,8 +32,6 @@ $RECYCLE.BIN/
 __pycache__/
 *.py[cod]
 *$py.class
-
-# PyInstaller
 *.manifest
 *.spec
 
@@ -50,6 +49,46 @@ pnpm-debug.log*
 
 # Vite
 .vite/
+
+# Unity
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+/[Aa]ssets/Plugins/Editor/JetBrains*
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+ExportedObj/
+Packages/manifest.json
+Packages/packages-lock.json
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.pidb
+*.booproj
+*.svd
+*.mdb
+*.opendb
+*.VC.db
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+sysinfo.txt
+crashlytics-build.properties
+sys_crashreports
+*.blend1
+*.blend2
+*.backup
+*.diff
+*.patch
+*.orig
 
 # Build results
 bin/
@@ -73,6 +112,11 @@ var/
 .installed.cfg
 *.egg
 *.whl
+*.apk
+*.aab
+*.unitypackage
+*.app
+*.ipa
 
 # Log files
 *.log
