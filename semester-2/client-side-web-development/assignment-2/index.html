@@ -1,0 +1,59 @@
+<!-- Julián Sellanes 301494667 -->
+ 
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>(Julian) Courses Website</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <main>
+            <section id="about">
+                <h2>About Me</h2>
+                <div>
+                    <img src="./me.jpg">
+                    <p>Hi, Welcome to my page. My name is Julián Sellanes. I am a Unionville High School graduate, and I am currently in the Software Engineering program at Centennial College. My hobbies are coding, drawing, and gym.</p>
+                </div>
+            </section>
+
+            <section id="courses">
+                <h2>Courses This Semester</h2>
+                <ul>
+                    <li>COMP122 - Introduction To Database Concept</li>
+                    <li>COMP123 - Programming II</li>
+                    <li>COMP125 - Client-Side Web Development</li>
+                    <li>COMP225 - Software Requirements Engineering</li>
+                    <li>COMP301 - Unix/Linux Operating Systems</li>
+                    <li>MATH185 - Discrete Mathematics</li>
+                    <li>COMM171 - College Communications II</li>
+                </ul>
+                <button onclick="showPrevCourses()">Show Courses from Previous Semesters</button>
+            </section>
+
+            <section>
+                <h2>Mission</h2>
+                <p id="mission">My mission is to learn as much as I can about software engineering, work as hard as I can and save a lot, so that one day I can start my own company/entrepreneurship :></p>
+                <button onclick="updateTxtColor()">Change Text Color</button>
+            </section>
+
+            <section>
+                <h2>Skills</h2>
+                <ul id="list">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+                <button onclick="addSkill()">Add React to the Skillset</button>
+            </section>
+
+            <section>
+                <small><i>Copyright &copy; Julián Sellanes (301494667) | Client-Side Web Dev - Winter 2025 | Assignment 2</i></small>
+            </section>
+        </main>
+        <script src="./main.js"></script>
+    </body>
+</html>
